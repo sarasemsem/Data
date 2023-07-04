@@ -40,3 +40,26 @@ pd.read_csv("online_retail.csv")
 You are working for an online retailer. Currently, the retailer sells over 4000 unique products. To take inventory of the items, your manager has asked you whether you can group the products into a small number of categories. The categories should be similar in terms of price and quantity sold and any other characteristics you can extract from the data.
 
 You will need to prepare a report that is accessible to a broad audience. It should outline your motivation, steps, findings, and conclusions.
+
+
+## Exploratory Data Analysis
+Data Preprocessing
+We start by loading the dataset and performing data preprocessing tasks such as handling missing values, duplicates, and data inconsistencies. We also convert the InvoiceDate column to a proper datetime format to facilitate time-based analysis.
+
+**Product Returns Analysis**
+Negative order quantities in the dataset indicate product returns. We analyze which products have been returned the most, providing insights into potential issues with specific items and opportunities for improvement in quality control or customer satisfaction.
+
+**Profit Visualization**
+We visualize the profits earned from UK customers to identify any recurring patterns or seasonality. Line or bar plots are used to illustrate the weekly, monthly, and quarterly trends in profits, helping the retailer plan inventory and marketing strategies accordingly.
+
+**Order Size Analysis**
+To compare order sizes between the UK and non-UK countries, we conduct a statistical analysis. By examining the average order sizes, we determine if there is a significant difference in purchasing behavior between these customer segments.
+
+## Conclusion
+In this analysis of the E-commerce dataset, we explored various aspects of the data to derive actionable insights. We identified products with the highest return rates, allowing the retailer to focus on addressing potential quality or customer satisfaction issues. Additionally, we visualized the profits earned from UK customers on a weekly, monthly, and quarterly basis to understand seasonal trends and optimize inventory management.
+
+Furthermore, we conducted an analysis to compare the order sizes between the UK and non-UK countries, providing insights into potential variations in customer behavior across regions. These findings can guide the retailer in tailoring marketing approaches and optimizing business strategies for different customer segments.
+
+Overall, this EDA provides a foundation for data-driven decision-making and offers valuable information to enhance customer experience, increase profitability, and improve inventory management for the online retailer.
+
+For a more detailed analysis, please refer to the Jupyter Notebook provided in this repository
