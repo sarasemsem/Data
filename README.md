@@ -60,6 +60,3 @@ In this analysis of the E-commerce dataset, we explored various aspects of the d
 
 Furthermore, we conducted an analysis to compare the order sizes between the UK and non-UK countries, providing insights into potential variations in customer behavior across regions. These findings can guide the retailer in tailoring marketing approaches and optimizing business strategies for different customer segments.
 
-Overall, this EDA provides a foundation for data-driven decision-making and offers valuable information to enhance customer experience, increase profitability, and improve inventory management for the online retailer.
-
-For a more detailed analysis, please refer to the Jupyter Notebook provided in this repository
